@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AGAppDelegate.h
 //  AGWeiboUserInfo
 //
 //  Created by Agenric on 15/10/8.
@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface AGAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 
 @end

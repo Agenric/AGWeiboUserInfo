@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		D78C14D31BC6642300F016B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D78C14D21BC6642300F016B8 /* main.m */; };
-		D78C14D61BC6642300F016B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D78C14D51BC6642300F016B8 /* AppDelegate.m */; };
-		D78C14D91BC6642300F016B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D78C14D81BC6642300F016B8 /* ViewController.m */; };
-		D78C14DC1BC6642300F016B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D78C14DA1BC6642300F016B8 /* Main.storyboard */; };
+		D78C14D61BC6642300F016B8 /* AGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D78C14D51BC6642300F016B8 /* AGAppDelegate.m */; };
+		D78C14D91BC6642300F016B8 /* AGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D78C14D81BC6642300F016B8 /* AGViewController.m */; };
 		D78C14DE1BC6642300F016B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D78C14DD1BC6642300F016B8 /* Images.xcassets */; };
 		D78C14E11BC6642300F016B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D78C14DF1BC6642300F016B8 /* LaunchScreen.xib */; };
 		D78C14ED1BC6642300F016B8 /* AGWeiboUserInfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D78C14EC1BC6642300F016B8 /* AGWeiboUserInfoTests.m */; };
+		D78C14FC1BC6676500F016B8 /* AGWeiBoUserInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = D78C14FA1BC6676500F016B8 /* AGWeiBoUserInfoController.m */; };
+		D78C14FD1BC6676500F016B8 /* AGWeiBoUserInfoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D78C14FB1BC6676500F016B8 /* AGWeiBoUserInfoController.xib */; };
+		D78C15091BC6B2D600F016B8 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = D78C15081BC6B2D600F016B8 /* UIImage+Color.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +32,20 @@
 		D78C14CD1BC6642300F016B8 /* AGWeiboUserInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGWeiboUserInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D78C14D11BC6642300F016B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D78C14D21BC6642300F016B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D78C14D41BC6642300F016B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D78C14D51BC6642300F016B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D78C14D71BC6642300F016B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D78C14D81BC6642300F016B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D78C14DB1BC6642300F016B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D78C14D41BC6642300F016B8 /* AGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGAppDelegate.h; sourceTree = "<group>"; };
+		D78C14D51BC6642300F016B8 /* AGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGAppDelegate.m; sourceTree = "<group>"; };
+		D78C14D71BC6642300F016B8 /* AGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGViewController.h; sourceTree = "<group>"; };
+		D78C14D81BC6642300F016B8 /* AGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGViewController.m; sourceTree = "<group>"; };
 		D78C14DD1BC6642300F016B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D78C14E01BC6642300F016B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D78C14E61BC6642300F016B8 /* AGWeiboUserInfoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AGWeiboUserInfoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D78C14EB1BC6642300F016B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D78C14EC1BC6642300F016B8 /* AGWeiboUserInfoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGWeiboUserInfoTests.m; sourceTree = "<group>"; };
+		D78C14F91BC6676500F016B8 /* AGWeiBoUserInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGWeiBoUserInfoController.h; sourceTree = "<group>"; };
+		D78C14FA1BC6676500F016B8 /* AGWeiBoUserInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGWeiBoUserInfoController.m; sourceTree = "<group>"; };
+		D78C14FB1BC6676500F016B8 /* AGWeiBoUserInfoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AGWeiBoUserInfoController.xib; sourceTree = "<group>"; };
+		D78C15071BC6B2D600F016B8 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		D78C15081BC6B2D600F016B8 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +87,14 @@
 		D78C14CF1BC6642300F016B8 /* AGWeiboUserInfo */ = {
 			isa = PBXGroup;
 			children = (
-				D78C14D41BC6642300F016B8 /* AppDelegate.h */,
-				D78C14D51BC6642300F016B8 /* AppDelegate.m */,
-				D78C14D71BC6642300F016B8 /* ViewController.h */,
-				D78C14D81BC6642300F016B8 /* ViewController.m */,
-				D78C14DA1BC6642300F016B8 /* Main.storyboard */,
+				D78C15001BC6B26700F016B8 /* Category */,
+				D78C14F61BC6673900F016B8 /* Controller */,
+				D78C14F71BC6673900F016B8 /* Model */,
+				D78C14F81BC6673900F016B8 /* View */,
+				D78C14D41BC6642300F016B8 /* AGAppDelegate.h */,
+				D78C14D51BC6642300F016B8 /* AGAppDelegate.m */,
+				D78C14D71BC6642300F016B8 /* AGViewController.h */,
+				D78C14D81BC6642300F016B8 /* AGViewController.m */,
 				D78C14DD1BC6642300F016B8 /* Images.xcassets */,
 				D78C14DF1BC6642300F016B8 /* LaunchScreen.xib */,
 				D78C14D01BC6642300F016B8 /* Supporting Files */,
@@ -117,6 +126,39 @@
 				D78C14EB1BC6642300F016B8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D78C14F61BC6673900F016B8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D78C14F91BC6676500F016B8 /* AGWeiBoUserInfoController.h */,
+				D78C14FA1BC6676500F016B8 /* AGWeiBoUserInfoController.m */,
+				D78C14FB1BC6676500F016B8 /* AGWeiBoUserInfoController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D78C14F71BC6673900F016B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D78C14F81BC6673900F016B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D78C15001BC6B26700F016B8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D78C15071BC6B2D600F016B8 /* UIImage+Color.h */,
+				D78C15081BC6B2D600F016B8 /* UIImage+Color.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +205,7 @@
 		D78C14C51BC6642300F016B8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = AG;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Agenric;
 				TargetAttributes = {
@@ -199,7 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D78C14DC1BC6642300F016B8 /* Main.storyboard in Resources */,
+				D78C14FD1BC6676500F016B8 /* AGWeiBoUserInfoController.xib in Resources */,
 				D78C14E11BC6642300F016B8 /* LaunchScreen.xib in Resources */,
 				D78C14DE1BC6642300F016B8 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +262,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D78C14D91BC6642300F016B8 /* ViewController.m in Sources */,
-				D78C14D61BC6642300F016B8 /* AppDelegate.m in Sources */,
+				D78C14D91BC6642300F016B8 /* AGViewController.m in Sources */,
+				D78C14D61BC6642300F016B8 /* AGAppDelegate.m in Sources */,
+				D78C15091BC6B2D600F016B8 /* UIImage+Color.m in Sources */,
 				D78C14D31BC6642300F016B8 /* main.m in Sources */,
+				D78C14FC1BC6676500F016B8 /* AGWeiBoUserInfoController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +289,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D78C14DA1BC6642300F016B8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D78C14DB1BC6642300F016B8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D78C14DF1BC6642300F016B8 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

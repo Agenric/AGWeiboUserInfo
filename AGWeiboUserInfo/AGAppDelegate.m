@@ -1,22 +1,27 @@
 //
-//  AppDelegate.m
+//  AGAppDelegate.m
 //  AGWeiboUserInfo
 //
 //  Created by Agenric on 15/10/8.
 //  Copyright (c) 2015年 Agenric. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "AGAppDelegate.h"
+#import "AGViewController.h"
 
-@interface AppDelegate ()
+@interface AGAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation AGAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.window setBackgroundColor:[UIColor whiteColor]];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[[AGViewController alloc] init]];
+    [self.window setRootViewController:nav];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
